@@ -9,8 +9,6 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
-
 ## Installation
 
 JDSwiftAvatarProgress is available through [CocoaPods](http://cocoapods.org). To install
@@ -22,7 +20,7 @@ pod "JDSwiftAvatarProgress"
 
 ## Author
 
-David López, david.lopez@thinksmart.es
+David López, davidlcarrascal@gmail.com
 
 ## License
 

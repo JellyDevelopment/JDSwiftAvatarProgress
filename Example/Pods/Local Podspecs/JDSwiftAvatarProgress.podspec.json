@@ -1,0 +1,24 @@
+{
+  "name": "JDSwiftAvatarProgress",
+  "version": "1.0",
+  "summary": "A short description of JDSwiftAvatarProgress.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/JDSwiftAvatarProgress",
+  "license": "MIT",
+  "authors": {
+    "David López": "david.lopez@thinksmart.es"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/JDSwiftAvatarProgress.git",
+    "tag": "1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "QuartzCore"
+  ]
+}

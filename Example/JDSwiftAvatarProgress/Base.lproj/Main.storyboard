@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="JDSwiftAvatarProgress_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -15,11 +16,40 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="va3-32-ZI4">
+                                <rect key="frame" x="260" y="264" width="81" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Load Avatar"/>
+                                <connections>
+                                    <action selector="loadAvatar:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="SHd-IT-09m"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="S3h-HD-ZQa" customClass="JDAvatarProgress" customModule="JDSwiftAvatarProgress">
+                                <rect key="frame" x="221" y="89" width="158" height="158"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="158" id="1gb-2p-UOW"/>
+                                    <constraint firstAttribute="width" constant="158" id="lBz-Lu-TMc"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="va3-32-ZI4" firstAttribute="top" secondItem="S3h-HD-ZQa" secondAttribute="bottom" constant="17" id="bk3-jL-ecE"/>
+                            <constraint firstItem="va3-32-ZI4" firstAttribute="centerX" secondItem="S3h-HD-ZQa" secondAttribute="centerX" id="mi4-8W-phm"/>
+                            <constraint firstItem="S3h-HD-ZQa" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="69" id="sGx-NY-rq3"/>
+                            <constraint firstItem="S3h-HD-ZQa" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="ypP-Na-ZrC"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="avatarImgView" destination="S3h-HD-ZQa" id="TaF-QO-Lhr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="800" y="456"/>
         </scene>
     </scenes>
 </document>

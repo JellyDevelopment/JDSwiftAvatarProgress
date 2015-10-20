@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05F10B8D21F6EE15E12DB96551EC6D22 /* Pods-JDSwiftAvatarProgress_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CAC4CB3A8D7DEFE783CC437A836EEA /* Pods-JDSwiftAvatarProgress_Example-dummy.m */; };
+		1202CCE6E57A0BB6920D2D7AFF3DE0B3 /* Pods-JDSwiftAvatarProgress_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4C6F4A313DB5B83DF680FCB91129CF /* Pods-JDSwiftAvatarProgress_Tests-dummy.m */; };
+		29C333E4DC6B14F95F340DD1B7095302 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E642B1A057ADA2ABEF90BE2417F349C1 /* QuartzCore.framework */; };
+		2A81475CD1A89857918568EE5AE2AB56 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DE615671731BF3AEFB3CB1F984FA8F /* UIKit.framework */; };
+		6397E0FF12C449F82A08522970B2CAC3 /* Pods-JDSwiftAvatarProgress_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09BF9F76157DBA5A9F83006271AD1C9C /* Pods-JDSwiftAvatarProgress_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83D08DED694D83792BD1E1761BFC30EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91413329813FA6FE5A78842159E69621 /* Foundation.framework */; };
+		8F85CED5BA3DD015E1B38127D134C8FC /* Pods-JDSwiftAvatarProgress_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB019D40C30BF00FA0B88508B9AC7DD5 /* Pods-JDSwiftAvatarProgress_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FECBA3680DD4DCFFADE5F0DD994EECD /* JDSwiftAvatarProgress-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03771FD47C614037829DE64A0F1D0696 /* JDSwiftAvatarProgress-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95C18855841C17E290C7AE17EF9504E2 /* JDAvatarProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E45A2220E2B475CB6C36F65807BA935 /* JDAvatarProgress.swift */; };
+		96413AEADA4DC87344B6A110075CE703 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91413329813FA6FE5A78842159E69621 /* Foundation.framework */; };
+		C4D0C765AE676CBDD09D74CC4CEDB4C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91413329813FA6FE5A78842159E69621 /* Foundation.framework */; };
+		D389999D03FBB1F24CA0BD2F224FF31A /* JDSwiftAvatarProgress-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD06FA1244AFF124CD1B7D4068A22465 /* JDSwiftAvatarProgress-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21342FC5043B0C7848B653F2C6D04B33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEEA7610A1EF343ACCF69DDE456C1DF8;
+			remoteInfo = JDSwiftAvatarProgress;
+		};
+		550C8CC4476CA4715CA4B6448377BC0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEEA7610A1EF343ACCF69DDE456C1DF8;
+			remoteInfo = JDSwiftAvatarProgress;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		004E9FD45BE6566202BE172104A95C7C /* Pods-JDSwiftAvatarProgress_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JDSwiftAvatarProgress_Tests-resources.sh"; sourceTree = "<group>"; };
+		03771FD47C614037829DE64A0F1D0696 /* JDSwiftAvatarProgress-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JDSwiftAvatarProgress-umbrella.h"; sourceTree = "<group>"; };
+		04CAC5713E6128D655F148C00FBEDC74 /* Pods-JDSwiftAvatarProgress_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JDSwiftAvatarProgress_Example-resources.sh"; sourceTree = "<group>"; };
+		09BF9F76157DBA5A9F83006271AD1C9C /* Pods-JDSwiftAvatarProgress_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JDSwiftAvatarProgress_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1344391AFC16A6EA799082EAB1FB3C7D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20CAC4CB3A8D7DEFE783CC437A836EEA /* Pods-JDSwiftAvatarProgress_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JDSwiftAvatarProgress_Example-dummy.m"; sourceTree = "<group>"; };
+		222DFF8602DA35CA6FF11234DC312541 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25B927E9301BAC3D49BE8132AC7B1501 /* Pods-JDSwiftAvatarProgress_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JDSwiftAvatarProgress_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2D289286EC97565187F40C77562854F6 /* Pods-JDSwiftAvatarProgress_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JDSwiftAvatarProgress_Example-frameworks.sh"; sourceTree = "<group>"; };
+		338400209D307EB26E331229F4ABB3A2 /* Pods-JDSwiftAvatarProgress_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JDSwiftAvatarProgress_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		381B0E52DA7B7D0E7F3EABDEBF1541FE /* Pods-JDSwiftAvatarProgress_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JDSwiftAvatarProgress_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3E45A2220E2B475CB6C36F65807BA935 /* JDAvatarProgress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JDAvatarProgress.swift; sourceTree = "<group>"; };
+		57A5075BF4A6F47286592CA62C30921D /* Pods_JDSwiftAvatarProgress_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JDSwiftAvatarProgress_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D4C6F4A313DB5B83DF680FCB91129CF /* Pods-JDSwiftAvatarProgress_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JDSwiftAvatarProgress_Tests-dummy.m"; sourceTree = "<group>"; };
+		6764D256FA40443F9A0DEBBDAD89F7B6 /* Pods_JDSwiftAvatarProgress_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JDSwiftAvatarProgress_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		896283E1CBF9FF63EE37919ECD10B197 /* JDSwiftAvatarProgress-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JDSwiftAvatarProgress-prefix.pch"; sourceTree = "<group>"; };
+		8BFF0ACCC9A528495E2644D4550FCC4A /* JDSwiftAvatarProgress.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JDSwiftAvatarProgress.xcconfig; sourceTree = "<group>"; };
+		8D6C7F0E50DD0A9E1E3461EC5902918F /* Pods-JDSwiftAvatarProgress_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JDSwiftAvatarProgress_Tests.modulemap"; sourceTree = "<group>"; };
+		91413329813FA6FE5A78842159E69621 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A12BFBE701882217D62071B86EBDAB98 /* Pods-JDSwiftAvatarProgress_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JDSwiftAvatarProgress_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A8D2620615130E6F160C3D403D951C8C /* Pods-JDSwiftAvatarProgress_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JDSwiftAvatarProgress_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B75BDA06720D2CD7BAC8A6E86274BA47 /* JDSwiftAvatarProgress.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JDSwiftAvatarProgress.modulemap; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BBD817F1188959AECA737768303B6DA7 /* Pods-JDSwiftAvatarProgress_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JDSwiftAvatarProgress_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BD06FA1244AFF124CD1B7D4068A22465 /* JDSwiftAvatarProgress-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JDSwiftAvatarProgress-dummy.m"; sourceTree = "<group>"; };
+		C29305B57F21064F1DA59A5CB1B56DDD /* Pods-JDSwiftAvatarProgress_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JDSwiftAvatarProgress_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CEA03A058E353EDDAA36C5BE2517D2CC /* JDSwiftAvatarProgress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JDSwiftAvatarProgress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9DE615671731BF3AEFB3CB1F984FA8F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E09A3131711E037C807AEE3063F42145 /* Pods-JDSwiftAvatarProgress_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JDSwiftAvatarProgress_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E642B1A057ADA2ABEF90BE2417F349C1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		F56B4C86C3FBEF175F7CC695FA0EDE95 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8613D3A7A93A05DF9AAC75442081870 /* Pods-JDSwiftAvatarProgress_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JDSwiftAvatarProgress_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F892C26E4C7B116F93BFD15DB123DA9D /* Pods-JDSwiftAvatarProgress_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JDSwiftAvatarProgress_Example.modulemap"; sourceTree = "<group>"; };
+		FB019D40C30BF00FA0B88508B9AC7DD5 /* Pods-JDSwiftAvatarProgress_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JDSwiftAvatarProgress_Example-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A8CBAE50B5E7604C59765E6628B972D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4D0C765AE676CBDD09D74CC4CEDB4C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DB0C7FB0665FDF8A018F277A11C6CAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D08DED694D83792BD1E1761BFC30EB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB84331A1107B5E7491088FC73D8EEEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96413AEADA4DC87344B6A110075CE703 /* Foundation.framework in Frameworks */,
+				29C333E4DC6B14F95F340DD1B7095302 /* QuartzCore.framework in Frameworks */,
+				2A81475CD1A89857918568EE5AE2AB56 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		017618062DA3BEF03138E14EC29A519E /* Pods-JDSwiftAvatarProgress_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F56B4C86C3FBEF175F7CC695FA0EDE95 /* Info.plist */,
+				F892C26E4C7B116F93BFD15DB123DA9D /* Pods-JDSwiftAvatarProgress_Example.modulemap */,
+				C29305B57F21064F1DA59A5CB1B56DDD /* Pods-JDSwiftAvatarProgress_Example-acknowledgements.markdown */,
+				25B927E9301BAC3D49BE8132AC7B1501 /* Pods-JDSwiftAvatarProgress_Example-acknowledgements.plist */,
+				20CAC4CB3A8D7DEFE783CC437A836EEA /* Pods-JDSwiftAvatarProgress_Example-dummy.m */,
+				2D289286EC97565187F40C77562854F6 /* Pods-JDSwiftAvatarProgress_Example-frameworks.sh */,
+				04CAC5713E6128D655F148C00FBEDC74 /* Pods-JDSwiftAvatarProgress_Example-resources.sh */,
+				FB019D40C30BF00FA0B88508B9AC7DD5 /* Pods-JDSwiftAvatarProgress_Example-umbrella.h */,
+				338400209D307EB26E331229F4ABB3A2 /* Pods-JDSwiftAvatarProgress_Example.debug.xcconfig */,
+				E09A3131711E037C807AEE3063F42145 /* Pods-JDSwiftAvatarProgress_Example.release.xcconfig */,
+			);
+			name = "Pods-JDSwiftAvatarProgress_Example";
+			path = "Target Support Files/Pods-JDSwiftAvatarProgress_Example";
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA23025FEDA7F7FE2AACB2532BD80D14 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		219718A96BEB0FFA09ED3C652D8F3934 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEA03A058E353EDDAA36C5BE2517D2CC /* JDSwiftAvatarProgress.framework */,
+				57A5075BF4A6F47286592CA62C30921D /* Pods_JDSwiftAvatarProgress_Example.framework */,
+				6764D256FA40443F9A0DEBBDAD89F7B6 /* Pods_JDSwiftAvatarProgress_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		337B72A34D012835E96A6EA29E9391B9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				718F5AA4C405914367673E912717F6C6 /* JDSwiftAvatarProgress */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3EE3FE5B51D829E5DD80F46D078C33D9 /* Pods-JDSwiftAvatarProgress_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1344391AFC16A6EA799082EAB1FB3C7D /* Info.plist */,
+				8D6C7F0E50DD0A9E1E3461EC5902918F /* Pods-JDSwiftAvatarProgress_Tests.modulemap */,
+				381B0E52DA7B7D0E7F3EABDEBF1541FE /* Pods-JDSwiftAvatarProgress_Tests-acknowledgements.markdown */,
+				F8613D3A7A93A05DF9AAC75442081870 /* Pods-JDSwiftAvatarProgress_Tests-acknowledgements.plist */,
+				5D4C6F4A313DB5B83DF680FCB91129CF /* Pods-JDSwiftAvatarProgress_Tests-dummy.m */,
+				A12BFBE701882217D62071B86EBDAB98 /* Pods-JDSwiftAvatarProgress_Tests-frameworks.sh */,
+				004E9FD45BE6566202BE172104A95C7C /* Pods-JDSwiftAvatarProgress_Tests-resources.sh */,
+				09BF9F76157DBA5A9F83006271AD1C9C /* Pods-JDSwiftAvatarProgress_Tests-umbrella.h */,
+				A8D2620615130E6F160C3D403D951C8C /* Pods-JDSwiftAvatarProgress_Tests.debug.xcconfig */,
+				BBD817F1188959AECA737768303B6DA7 /* Pods-JDSwiftAvatarProgress_Tests.release.xcconfig */,
+			);
+			name = "Pods-JDSwiftAvatarProgress_Tests";
+			path = "Target Support Files/Pods-JDSwiftAvatarProgress_Tests";
+			sourceTree = "<group>";
+		};
+		718F5AA4C405914367673E912717F6C6 /* JDSwiftAvatarProgress */ = {
+			isa = PBXGroup;
+			children = (
+				9EEDCD34BE216633CEBBF1B6EEDC24F7 /* Pod */,
+				7E504E3C6382D17C33B84AF5DB40DAC2 /* Support Files */,
+			);
+			name = JDSwiftAvatarProgress;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				337B72A34D012835E96A6EA29E9391B9 /* Development Pods */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				219718A96BEB0FFA09ED3C652D8F3934 /* Products */,
+				D35CF3A31056EDA78294CFDA5ACB137A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7E504E3C6382D17C33B84AF5DB40DAC2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				222DFF8602DA35CA6FF11234DC312541 /* Info.plist */,
+				B75BDA06720D2CD7BAC8A6E86274BA47 /* JDSwiftAvatarProgress.modulemap */,
+				8BFF0ACCC9A528495E2644D4550FCC4A /* JDSwiftAvatarProgress.xcconfig */,
+				BD06FA1244AFF124CD1B7D4068A22465 /* JDSwiftAvatarProgress-dummy.m */,
+				896283E1CBF9FF63EE37919ECD10B197 /* JDSwiftAvatarProgress-prefix.pch */,
+				03771FD47C614037829DE64A0F1D0696 /* JDSwiftAvatarProgress-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JDSwiftAvatarProgress";
+			sourceTree = "<group>";
+		};
+		9EEDCD34BE216633CEBBF1B6EEDC24F7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A728CD7D3ABCB8D288F732513FC5D235 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		A728CD7D3ABCB8D288F732513FC5D235 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3E45A2220E2B475CB6C36F65807BA935 /* JDAvatarProgress.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D35CF3A31056EDA78294CFDA5ACB137A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				017618062DA3BEF03138E14EC29A519E /* Pods-JDSwiftAvatarProgress_Example */,
+				3EE3FE5B51D829E5DD80F46D078C33D9 /* Pods-JDSwiftAvatarProgress_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DA23025FEDA7F7FE2AACB2532BD80D14 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				91413329813FA6FE5A78842159E69621 /* Foundation.framework */,
+				E642B1A057ADA2ABEF90BE2417F349C1 /* QuartzCore.framework */,
+				D9DE615671731BF3AEFB3CB1F984FA8F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		14AF559E4A733910C317EBF750E84216 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6397E0FF12C449F82A08522970B2CAC3 /* Pods-JDSwiftAvatarProgress_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C5511BD1085E0F7D56A6450521BE105 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FECBA3680DD4DCFFADE5F0DD994EECD /* JDSwiftAvatarProgress-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C31CA9D94E855015A51129BD8E016FE4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F85CED5BA3DD015E1B38127D134C8FC /* Pods-JDSwiftAvatarProgress_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4A43FC3C5D71AC7E6132997E1190AC6C /* Pods-JDSwiftAvatarProgress_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD63D98A7B4524E729D6DF59F06B5665 /* Build configuration list for PBXNativeTarget "Pods-JDSwiftAvatarProgress_Example" */;
+			buildPhases = (
+				531D597ECCB0E0690DE7D329A7394B60 /* Sources */,
+				1A8CBAE50B5E7604C59765E6628B972D /* Frameworks */,
+				C31CA9D94E855015A51129BD8E016FE4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				839E91C8573D5474575D9E24524464CC /* PBXTargetDependency */,
+			);
+			name = "Pods-JDSwiftAvatarProgress_Example";
+			productName = "Pods-JDSwiftAvatarProgress_Example";
+			productReference = 57A5075BF4A6F47286592CA62C30921D /* Pods_JDSwiftAvatarProgress_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5902DA966FFA07724584297D19400B8E /* Pods-JDSwiftAvatarProgress_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C17A6083BF256F3BADC4E57C549AD11E /* Build configuration list for PBXNativeTarget "Pods-JDSwiftAvatarProgress_Tests" */;
+			buildPhases = (
+				1D8173BAFA85CDA448C4E54BBFA5D970 /* Sources */,
+				1DB0C7FB0665FDF8A018F277A11C6CAE /* Frameworks */,
+				14AF559E4A733910C317EBF750E84216 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD05A1A4B5CE10A78A8FE9DAA1085C67 /* PBXTargetDependency */,
+			);
+			name = "Pods-JDSwiftAvatarProgress_Tests";
+			productName = "Pods-JDSwiftAvatarProgress_Tests";
+			productReference = 6764D256FA40443F9A0DEBBDAD89F7B6 /* Pods_JDSwiftAvatarProgress_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AEEA7610A1EF343ACCF69DDE456C1DF8 /* JDSwiftAvatarProgress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBDBFC630196849C5617AC806DD56041 /* Build configuration list for PBXNativeTarget "JDSwiftAvatarProgress" */;
+			buildPhases = (
+				B4DE2071D120B0F33AF2738C27773E1C /* Sources */,
+				DB84331A1107B5E7491088FC73D8EEEC /* Frameworks */,
+				8C5511BD1085E0F7D56A6450521BE105 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JDSwiftAvatarProgress;
+			productName = JDSwiftAvatarProgress;
+			productReference = CEA03A058E353EDDAA36C5BE2517D2CC /* JDSwiftAvatarProgress.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 219718A96BEB0FFA09ED3C652D8F3934 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEEA7610A1EF343ACCF69DDE456C1DF8 /* JDSwiftAvatarProgress */,
+				4A43FC3C5D71AC7E6132997E1190AC6C /* Pods-JDSwiftAvatarProgress_Example */,
+				5902DA966FFA07724584297D19400B8E /* Pods-JDSwiftAvatarProgress_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D8173BAFA85CDA448C4E54BBFA5D970 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1202CCE6E57A0BB6920D2D7AFF3DE0B3 /* Pods-JDSwiftAvatarProgress_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		531D597ECCB0E0690DE7D329A7394B60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F10B8D21F6EE15E12DB96551EC6D22 /* Pods-JDSwiftAvatarProgress_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4DE2071D120B0F33AF2738C27773E1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95C18855841C17E290C7AE17EF9504E2 /* JDAvatarProgress.swift in Sources */,
+				D389999D03FBB1F24CA0BD2F224FF31A /* JDSwiftAvatarProgress-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		839E91C8573D5474575D9E24524464CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JDSwiftAvatarProgress;
+			target = AEEA7610A1EF343ACCF69DDE456C1DF8 /* JDSwiftAvatarProgress */;
+			targetProxy = 550C8CC4476CA4715CA4B6448377BC0A /* PBXContainerItemProxy */;
+		};
+		DD05A1A4B5CE10A78A8FE9DAA1085C67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JDSwiftAvatarProgress;
+			target = AEEA7610A1EF343ACCF69DDE456C1DF8 /* JDSwiftAvatarProgress */;
+			targetProxy = 21342FC5043B0C7848B653F2C6D04B33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32F1F648F57BEFDF84A5322D267CB57C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBD817F1188959AECA737768303B6DA7 /* Pods-JDSwiftAvatarProgress_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JDSwiftAvatarProgress_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JDSwiftAvatarProgress_Tests/Pods-JDSwiftAvatarProgress_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_JDSwiftAvatarProgress_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		57355C3C7E3C24DB5786CBFE7C0B2627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BFF0ACCC9A528495E2644D4550FCC4A /* JDSwiftAvatarProgress.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JDSwiftAvatarProgress/JDSwiftAvatarProgress-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JDSwiftAvatarProgress/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JDSwiftAvatarProgress/JDSwiftAvatarProgress.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JDSwiftAvatarProgress;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		608BB21D09C37311A080C59ED5312F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E09A3131711E037C807AEE3063F42145 /* Pods-JDSwiftAvatarProgress_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JDSwiftAvatarProgress_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JDSwiftAvatarProgress_Example/Pods-JDSwiftAvatarProgress_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_JDSwiftAvatarProgress_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		725FED8A9FF2055FB9C05B5F6B13620B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8D2620615130E6F160C3D403D951C8C /* Pods-JDSwiftAvatarProgress_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JDSwiftAvatarProgress_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JDSwiftAvatarProgress_Tests/Pods-JDSwiftAvatarProgress_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_JDSwiftAvatarProgress_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9CECEE30BA757921AE095356B8A48573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 338400209D307EB26E331229F4ABB3A2 /* Pods-JDSwiftAvatarProgress_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JDSwiftAvatarProgress_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JDSwiftAvatarProgress_Example/Pods-JDSwiftAvatarProgress_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_JDSwiftAvatarProgress_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA47D70B3F1DF0B10963637CFEE80C9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BFF0ACCC9A528495E2644D4550FCC4A /* JDSwiftAvatarProgress.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JDSwiftAvatarProgress/JDSwiftAvatarProgress-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JDSwiftAvatarProgress/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JDSwiftAvatarProgress/JDSwiftAvatarProgress.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JDSwiftAvatarProgress;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C17A6083BF256F3BADC4E57C549AD11E /* Build configuration list for PBXNativeTarget "Pods-JDSwiftAvatarProgress_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				725FED8A9FF2055FB9C05B5F6B13620B /* Debug */,
+				32F1F648F57BEFDF84A5322D267CB57C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD63D98A7B4524E729D6DF59F06B5665 /* Build configuration list for PBXNativeTarget "Pods-JDSwiftAvatarProgress_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CECEE30BA757921AE095356B8A48573 /* Debug */,
+				608BB21D09C37311A080C59ED5312F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBDBFC630196849C5617AC806DD56041 /* Build configuration list for PBXNativeTarget "JDSwiftAvatarProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57355C3C7E3C24DB5786CBFE7C0B2627 /* Debug */,
+				CA47D70B3F1DF0B10963637CFEE80C9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
