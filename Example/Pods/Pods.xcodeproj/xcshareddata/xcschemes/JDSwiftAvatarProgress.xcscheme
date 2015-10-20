@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '9690338F758BE0414054A949'
+               BlueprintIdentifier = '3EDFD71E0FBBF4B29FC096CD'
                BlueprintName = 'JDSwiftAvatarProgress'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'JDSwiftAvatarProgress.framework'>
