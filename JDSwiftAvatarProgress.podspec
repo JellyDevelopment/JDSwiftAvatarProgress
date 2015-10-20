@@ -8,14 +8,14 @@
 
 Pod::Spec.new do |s|
   s.name             = "JDSwiftAvatarProgress"
-  s.version          = "1.0"
+  s.version          = "1.0.1"
   s.summary          = "Easy customizable avatar image asynchronously with progress bar animated"
   s.description      = "Easy customizable avatar image asynchronously with progress bar animated. Enjoy it!"
   s.homepage         = "https://github.com/JellyDevelopment/JDSwiftAvatarProgress.git"
   s.license          = 'MIT'
   s.author           = { "David López" => "davidlcarrascal@gmail.com" }
   s.source           = { :git => "https://github.com/JellyDevelopment/JDSwiftAvatarProgress.git", :tag => s.version.to_s }
-  s.social_media_url = 'https://twitter.com/davidlcarrascal
+  s.social_media_url = 'https://twitter.com/davidlcarrascal'
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true

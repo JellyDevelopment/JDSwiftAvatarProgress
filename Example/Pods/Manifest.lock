@@ -1,5 +1,5 @@
 PODS:
-  - JDSwiftAvatarProgress (1.0)
+  - JDSwiftAvatarProgress (1.0.1)
 
 DEPENDENCIES:
   - JDSwiftAvatarProgress (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  JDSwiftAvatarProgress: e1961db5426e61e1b6521d0159cb0aa5957ec87d
+  JDSwiftAvatarProgress: 6e5bdd7c4084bf3a9a2989432daf4fa6106a4763
 
 COCOAPODS: 0.39.0
