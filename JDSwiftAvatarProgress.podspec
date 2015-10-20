@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "JDSwiftAvatarProgress"
   s.version          = "1.0.2"
-  s.summary          = "Easy customizable avatar image asynchronously with progress bar animated"
+  s.summary          = "Easy customizable round avatar, a derived UIImageView class, load asynchronously the image with optional border and progress bar animated. Perfect to use in the profile section in your apps"
   s.description      = "Easy customizable avatar image asynchronously with progress bar animated. Enjoy it!"
   s.homepage         = "https://github.com/JellyDevelopment/JDSwiftAvatarProgress.git"
   s.license          = 'MIT'
