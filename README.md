@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/cocoapods/l/JDSwiftAvatarProgress.svg?style=flat)](http://cocoapods.org/pods/JDSwiftAvatarProgress)
 [![Platform](https://img.shields.io/cocoapods/p/JDSwiftAvatarProgress.svg?style=flat)](http://cocoapods.org/pods/JDSwiftAvatarProgress)
 
-<img src="JDAvatarProgressDemo.gif" width=320>
+<img src="https://raw.githubusercontent.com/JellyDevelopment/JDAvatarProgress/master/JDAvatarProgressDemo.gif" width=320>
 
 ##Objective-C
 
