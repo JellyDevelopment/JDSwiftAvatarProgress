@@ -20,7 +20,7 @@ pod "JDSwiftAvatarProgress"
 
 ## Author
 
-Made with :heart: in Seville by David López Carrascal,
+Made with  :heart:  by David López Carrascal,
 ```swift
 let email = "davidlcarrascal@gmail.com"
 let twitter = "@davidlcarrascal"
