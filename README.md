@@ -20,8 +20,11 @@ pod "JDSwiftAvatarProgress"
 
 ## Author
 
-David López, davidlcarrascal@gmail.com
-
+Made with :heart: in Seville by David López Carrascal,
+```swift
+let email = "davidlcarrascal@gmail.com"
+let twitter = "@davidlcarrascal"
+```
 ## License
 
 JDSwiftAvatarProgress is available under the MIT license. See the LICENSE file for more info.
